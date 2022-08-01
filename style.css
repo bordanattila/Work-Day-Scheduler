@@ -69,3 +69,21 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.list-group-item-secondary {
+  width: 8%;
+}
+
+.list-group-item-success {
+  width: 90%;
+}
+
+/* Selects the second li element in a list
+li:nth-child(2) {
+  background: lightgreen;
+}
+
+Selects the third li element in a list
+li:nth-child(3) {
+  background: yellow;
+} */
