@@ -11,8 +11,9 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  cursor: pointer;
 }
-
+/*added*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -24,66 +25,54 @@ textarea{
 .description{
   white-space: pre-wrap;
 }
-
+/*added*/
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
-
+/*added*/
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
-
+/*added*/
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/*added*/
 .past {
   background-color: #d3d3d3;
   color: white;
 }
-
+/*added*/
 .present {
   background-color: #ff6961;
   color: white;
 }
-
+/*added*/
 .future {
   background-color: #77dd77;
   color: white;
 }
-
+/*added*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  cursor: pointer;
 }
-
+/*added*/
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
 
-.list-group-item-secondary {
-  width: 8%;
+.hide {
+  display: none;
 }
 
-.list-group-item-success {
-  width: 90%;
-}
-
-/* Selects the second li element in a list
-li:nth-child(2) {
-  background: lightgreen;
-}
-
-Selects the third li element in a list
-li:nth-child(3) {
-  background: yellow;
-} */
