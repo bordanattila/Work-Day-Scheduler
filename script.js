@@ -9,7 +9,7 @@ var popup = $("div.hide");
 var todayDate = moment();
 todayDate.format("MMM Do, YYYY");
 var weekDay = todayDate.format("dddd")
-var formatDate = moment(todayDate, "MMM Do, YYYY").format("dddd, MMMM do YYYY")
+var formatDate = moment(todayDate, "MMM Do, YYYY").format("dddd, MMMM Do YYYY")
 var currentHour = moment().format("HH");
 date.text(formatDate);
 var forYesterday = formatDate.split(" ")
@@ -78,7 +78,7 @@ function logEvent () {
 //Dispaly existing events after refresh
 function renderOld () {
     for (k in localStorage) {
-    var target = $("#"+k)
+    var target = $("#"+k);
     var cell = localStorage.getItem(k);
     if (target === null) {
         continue;
